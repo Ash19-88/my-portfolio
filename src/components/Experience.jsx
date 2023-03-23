@@ -92,14 +92,15 @@ const Experience = () => {
     <div name="experience" className='bg-gradient-to-b from-fuchsia-800 to-slate-800 w-full h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white'>
         <div className='pt-20 md:pt-24'>
-          <p className='text-4xl font-bold border-b-4 border-slate-400 p-2 inline  '>Experience</p>
+          <p className='text-4xl font-bold border-b-4 border-slate-400 px-2 pb-2 inline  '>Experience</p>
           <p className='pt-4 pb-0 md:py-8 md:text-2xl'>These are technologies, some frameworks and tools I've worked with</p>
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-6 px-12 sm:px-0 md:gap-10 md:py-10'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-6 px-12
+        sm:px-0 md:gap-10 md:py-10'>
           {logos.map(({ id, src, title, style }) => (
           <div key={id} className={`shadow-md hover:scale-110 pt-2 duration-500 rounded-lg ${style}`}>
-            <img src={src} alt="" className='w-8 md:w-20 mx-auto' />
+            <img src={src} alt="" className='w-6 md:w-20 mx-auto' />
             <p className='mt-4'>{title}</p>
           </div>    
           ))}
