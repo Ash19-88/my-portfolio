@@ -1,34 +1,41 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill} from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsWhatsapp} from 'react-icons/bs';
 
 const SocialLinks = () => {
   const links = [
     {
       id: 1,
       child: (
+        <>WhatsApp <BsWhatsapp size={30} /></>
+      ),
+      href: "https://wa.link/mdejk5",
+      style: "rounded-tr-md ",
+    },
+    {
+      id: 2,
+      child: (
         <>LinkedIn <FaLinkedin size={30} /></>
       ),
       href: 'https://www.linkedin.com/in/ayelen-llampa1988',
-      style: "rounded-tr-md ",
     },
      {
-      id: 2,
+      id: 3,
       child: (
         <>GitHub <FaGithub size={30} /></>
       ),
       href: 'https://github.com/Ash19-88',
     },
       {
-      id: 3,
+      id: 4,
       child: (
         <>Mail <HiOutlineMail size={30} /></>
       ),
       href: 'mailto: ayelenllampa88@gmail.com',
     },
        {
-      id: 4,
+      id: 5,
       child: (
         <>Resume <BsFillPersonLinesFill size={30} /></>
       ),
