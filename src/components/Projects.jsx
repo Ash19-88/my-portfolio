@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       src: simpleServicePortfolio,
       github: "https://github.com/PDG94/simpleservice",
-      site: "https://simpleservice.vercel.app"
+      site: "https://simpleservice-lemon.vercel.app/"
     },
     {
       id: 2,
@@ -21,11 +21,11 @@ const Projects = () => {
     <div name="projects" className='bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 w-full text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8 pt-20 md:pt-2'>
-         <p className='text-4xl font-bold inline border-b-4 border-slate-400'>Projects</p>
-         <p className='py-6'>Check out some of my work here</p>
+         <p className='text-2xl md:text-4xl font-bold inline border-b-4 border-slate-400'>Projects</p>
+         <p className='py-6 md:pt-6 md:pb-1'>Check out some of my work here</p>
         </div>
         
-        <div className='grid sm:grid-cols-4 md:grid-cols-2 gap-12 md:gap-10 px-6 
+        <div className='grid sm:grid-cols-4 md:grid-cols-2 gap-6 md:gap-8 px-6 
          sm:px-0'>
         {
           project.map(({ id, src, github, site }) => (
