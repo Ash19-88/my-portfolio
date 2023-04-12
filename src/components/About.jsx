@@ -14,7 +14,7 @@ const About = () => {
         I've worked with a variety of technologies in web development, including languages such as JavaScript and SQL.
         </p>
         <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
-          For user experience, I've been developing with React, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, among others. Also, I have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, Canva, Figma and Firebase. At the moment, I'm learning PhP and MySQL.</p>
+          For user experience, I've been developing with React, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I'm learning Typescript and PHP.</p>
           <p className="text-sm md:text-xl mt-1 text-white font-semibold "> 
           My background as an English teacher helped me to develop useful soft skills, such as leadership, teamwork and proactive problem-solving. Also, I'm well-organized in managing projects and timelines. Above all, I'm passionate about technology, thrive in collaborative environments and open to new challenges.
         </p>
