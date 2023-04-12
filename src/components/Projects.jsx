@@ -7,8 +7,8 @@ const Projects = () => {
     {
       id: 1,
       src: simpleServicePortfolio,
-      github: "https://github.com/PDG94/simpleservice",
-      site: "https://simpleservice-lemon.vercel.app/"
+      github: "https://github.com/Edwards0307/simpleservice",
+      site: "https://simpleservice-six.vercel.app/"
     },
     {
       id: 2,
