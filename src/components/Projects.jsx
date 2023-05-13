@@ -14,7 +14,7 @@ const Projects = () => {
       id: 2,
       src: videogamePortfolio,
       github: "https://github.com/Ash19-88/PI-videogames",
-      site: "https://pi-videogames-ash19-88.vercel.app/"
+      site: "https://videogames-ashtech.vercel.app/"
     },
   ]
   return (
