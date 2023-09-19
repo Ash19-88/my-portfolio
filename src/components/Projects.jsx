@@ -2,6 +2,7 @@ import React from "react";
 import simpleServicePortfolio from "../assets/simpleServicePortfolio.gif";
 import videogamePortfolio from "../assets/videogamePortfolio.gif";
 import starwars from "../assets/starwars.gif";
+import thinderpet from "../assets/thinderpetPortfolio.gif";
 
 const Projects = () => {
   const project = [
@@ -22,6 +23,12 @@ const Projects = () => {
       src: starwars,
       github: "https://github.com/Ash19-88/star-wars",
       site: "https://star-wars-ashtechsolutions.netlify.app/",
+    },
+    {
+      id: 4,
+      src: thinderpet,
+      github: "https://github.com/No-Country/c13-36-t-node-react",
+      site: "https://thinderpet.vercel.app/",
     },
   ];
   return (
