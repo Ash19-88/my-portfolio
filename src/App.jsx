@@ -8,7 +8,6 @@ import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
-
   return (
     <div>
       <NavBar />

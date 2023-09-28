@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       src: simpleServicePortfolio,
       github: "https://github.com/Edwards0307/simpleservice",
-      site: "https://simpleservice-six.vercel.app/",
+      site: "https://simple-service-ivory.vercel.app/",
     },
     {
       id: 2,
@@ -34,9 +34,9 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 w-full text-white md:h-screen font-Raleway"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg py-4 md:px-20 px-8 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 pt-20 md:pt-2">
           <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-slate-400">
             Projects
@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
 
         <div
-          className="grid sm:grid-cols-4 md:grid-cols-2 gap-6 md:gap-8 px-6 
+          className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-6 md:gap-8 px-6 
          sm:px-0"
         >
           {project.map(({ id, src, github, site }) => (
@@ -55,17 +55,21 @@ const Projects = () => {
                 alt="project Simple Service"
                 className="rounded-xl duration-200 shadow-sm shadow-white hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <a href={site}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125">
-                    Demo
-                  </button>
-                </a>
-                <a href={github}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125">
-                    Code
-                  </button>
-                </a>
+              <div className="flex flex-row items-center justify-center">
+                <div>
+                  <a href={site}>
+                    <button className="w-1/2 m-4 duration-200 hover:scale-125">
+                      Demo
+                    </button>
+                  </a>
+                </div>
+                <div>
+                  <a href={github}>
+                    <button className="w-1/2 m-4 duration-200 hover:scale-125">
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           ))}

@@ -1,10 +1,8 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-slate-800 to-fuchsia-800  p-4 text-white"
+      className="w-full h-screen bg-gradient-to-b from-slate-800 to-fuchsia-800  p-4 lg:px-20 text-white font-Raleway"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-1 pt-14 lg:pt-16 2xl:pt-2">
@@ -48,7 +46,7 @@ const Contact = () => {
               required
             ></textarea>
             <button className="text-white bg-gradient-to-l from-cyan-400 to-fuchsia-600 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-125 duration-300">
-              Let's talk
+              {" Let's talk"}
             </button>
           </form>
         </div>

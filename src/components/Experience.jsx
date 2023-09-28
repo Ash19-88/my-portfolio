@@ -76,14 +76,14 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-fuchsia-800 to-slate-800 w-full h-screen"
+      className="bg-gradient-to-b from-fuchsia-800 to-slate-800 w-full h-screen font-Raleway"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 lg:px-20 flex flex-col justify-center w-full text-white">
         <div className="pt-20 lg:pt-16 2xl:pt-32">
           <p className="text-2xl md:text-4xl font-bold border-b-4 border-slate-400 px-2 pb-2 inline ">
             Experience
           </p>
-          <p className="pt-4 pb-0 md:pt-8 md:text-2xl">
+          <p className="pt-4 pb-0 md:pt-8 text-xl md:text-2xl">
             These are technologies, some frameworks and tools I've worked with
           </p>
         </div>
