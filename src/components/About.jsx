@@ -17,12 +17,12 @@ const About = () => {
           </p>
           <p className="text-sm md:text-xl mt-1 text-white font-semibold">
             {
-              "I've worked with a variety of technologies in web development,including languages such as JavaScript and SQL."
+              "I've worked with a variety of technologies in web development,including languages such as JavaScript, Typescript and SQL."
             }
           </p>
           <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
             {
-              " For user experience, I've been developing with React, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I'm learning Figma and PHP."
+              " For user experience, I've been developing with React, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I am learning Next.js and strengthening my frontend development skills."
             }
           </p>
           <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
