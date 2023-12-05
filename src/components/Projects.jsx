@@ -51,10 +51,7 @@ const Projects = () => {
           <p className="py-6 md:pt-6 md:pb-1">Check out some of my work here</p>
         </div>
 
-        <div
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-8 px-6 
-         sm:px-0"
-        >
+        <div className="flex flex-wrap   justify-center sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-8 sm:px-0">
           {project.map(({ id, src, github, site }) => (
             <div key={id} className="shadow-md shadow-white rounded-xl">
               <img
