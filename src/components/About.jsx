@@ -1,38 +1,38 @@
+import Container from "postcss/lib/container";
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+  const { t } = useTranslation("about");
+
   return (
-    <div
-      name="about"
+    <section
+      name={t("about")}
       className="w-full h-screen bg-gradient-to-b from-fuchsia-800 to-slate-800 font-Raleway"
     >
       <div className="max-w-screen-lg w-auto p-4 lg:px-20 mx-auto flex flex-col justify-center h-full">
         <div className="pb-1 ">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4  border-slate-400 text-white">
-            About
+            {t("about")}
           </p>
         </div>
-        <div className="ml-3 mr-3 mt-6">
+        <div className="mx-3 mt-6">
           <p className="text-sm md:mt-10 md:text-xl text-white font-semibold ">
-            {" "}
-            {"Hi! I'm Ash, a creative and results-driven full-stack developer."}
+            {t("hi")}
           </p>
-          <p className="text-sm md:text-xl mt-1 text-white font-semibold">
-            {
-              "I've worked with a variety of technologies in web development,including languages such as JavaScript, Typescript and SQL."
-            }
+          <p className="text-sm md:text-xl mt-1 text-white font-semibold py-4">
+            {t("techs")}
           </p>
-          <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
-            {
-              " For user experience, I've been developing with React, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I am learning Next.js and strengthening my frontend development skills."
-            }
-          </p>
-          <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
-            {
-              "My background as an English teacher helped me to develop useful soft skills, such as leadership, teamwork and proactive problem-solving. Also, I'm well-organized in managing projects and timelines. Above all, I'm passionate about technology, thrive in collaborative environments and open to new challenges."
-            }
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 md:items-baseline md:text-justify">
+            <p className="text-sm md:text-xl mt-1 text-white font-semibold ">
+              {t("ux")}
+            </p>
+            <p className="text-sm md:text-xl mt-1 text-white font-semibold pt-4">
+              {t("background")}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

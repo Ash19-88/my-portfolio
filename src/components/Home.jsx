@@ -10,7 +10,7 @@ const Home = () => {
         className="h-screen bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 flex justify-center items-center"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col-reverse justify-center items-center md:h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center h-full py-10 md:mx-2">
+          <div className="flex flex-col justify-center h-full py-10 md:mx-16">
             <h2 className="text-4xl sm:text-6xl font-bold text-white ">
               Building beautiful web experiences
             </h2>
