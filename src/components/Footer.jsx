@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
+  const { t } = useTranslation("footer");
   const date = new Date();
   const year = date.getFullYear();
 
@@ -25,11 +27,14 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-center flex lg:text-center mb-2 mt-3 lg:mb-2">
-          Developed by{" "}
+          {t("developedBy")}{" "}
           <span className="mr-2 ml-2 text-fuchsia-300"> Ayelen Llampa</span>
         </p>
         <div className="flex justify-center mb-4 lg:mb-2 lg:text-center lg:mt-3">
-          <p> copyright &copy; {year}</p>
+          <p>
+            {" "}
+            {t("copyright")} &copy;{year}
+          </p>
         </div>
       </div>
     </div>

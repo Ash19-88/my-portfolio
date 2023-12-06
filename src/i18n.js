@@ -22,6 +22,9 @@ import contact_pt from "./locales/contact/contact_pt.json";
 import socialLinks_es from "./locales/socialLinks/socialLinks_es.json";
 import socialLinks_en from "./locales/socialLinks/socialLinks_en.json";
 import socialLinks_pt from "./locales/socialLinks/socialLinks_pt.json";
+import footer_es from "./locales/footer/footer_es.json";
+import footer_en from "./locales/footer/footer_en.json";
+import footer_pt from "./locales/footer/footer_pt.json";
 
 i18n
   .use(LanguageDetector)
@@ -41,6 +44,7 @@ i18n
         experience: experience_es,
         contact: contact_es,
         socialLinks: socialLinks_es,
+        footer: footer_es,
       },
       en: {
         navbar: navbar_en,
@@ -50,6 +54,7 @@ i18n
         experience: experience_en,
         contact: contact_en,
         socialLinks: socialLinks_en,
+        footer: footer_en,
       },
       pt: {
         navbar: navbar_pt,
@@ -59,6 +64,7 @@ i18n
         experience: experience_pt,
         contact: contact_pt,
         socialLinks: socialLinks_pt,
+        footer: footer_pt,
       },
     },
   });
