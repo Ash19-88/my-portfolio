@@ -19,6 +19,9 @@ import experience_pt from "./locales/experience/experience_pt.json";
 import contact_es from "./locales/contact/contact_es.json";
 import contact_en from "./locales/contact/contact_en.json";
 import contact_pt from "./locales/contact/contact_pt.json";
+import socialLinks_es from "./locales/socialLinks/socialLinks_es.json";
+import socialLinks_en from "./locales/socialLinks/socialLinks_en.json";
+import socialLinks_pt from "./locales/socialLinks/socialLinks_pt.json";
 
 i18n
   .use(LanguageDetector)
@@ -37,6 +40,7 @@ i18n
         projects: projects_es,
         experience: experience_es,
         contact: contact_es,
+        socialLinks: socialLinks_es,
       },
       en: {
         navbar: navbar_en,
@@ -45,6 +49,7 @@ i18n
         projects: projects_en,
         experience: experience_en,
         contact: contact_en,
+        socialLinks: socialLinks_en,
       },
       pt: {
         navbar: navbar_pt,
@@ -53,6 +58,7 @@ i18n
         projects: projects_pt,
         experience: experience_pt,
         contact: contact_pt,
+        socialLinks: socialLinks_pt,
       },
     },
   });

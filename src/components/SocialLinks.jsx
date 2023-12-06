@@ -2,14 +2,16 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
 const SocialLinks = () => {
+  const { t } = useTranslation("socialLinks");
   const links = [
     {
       id: 1,
       child: (
         <>
-          WhatsApp <BsWhatsapp size={30} />
+          {t("whatsappLink")} <BsWhatsapp size={30} />
         </>
       ),
       href: "https://wa.link/mdejk5",
@@ -19,7 +21,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          {t("linkedinLink")} <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/ayelen-llampa1988",
@@ -28,7 +30,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          {t("githubLink")} <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/Ash19-88",
@@ -37,7 +39,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          {t("mailLink")} <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto: ayelenllampa88@gmail.com",
@@ -46,7 +48,7 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          {t("resumeLink")} <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "/Ayelen-Llampa-resume.pdf",
