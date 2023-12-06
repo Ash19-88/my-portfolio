@@ -13,6 +13,9 @@ import home_pt from "./locales/home/home_pt.json";
 import projects_es from "./locales/projects/projects_es.json";
 import projects_en from "./locales/projects/projects_en.json";
 import projects_pt from "./locales/projects/projects_pt.json";
+import experience_es from "./locales/experience/experience_es.json";
+import experience_en from "./locales/experience/experience_en.json";
+import experience_pt from "./locales/experience/experience_pt.json";
 
 i18n
   .use(LanguageDetector)
@@ -29,18 +32,21 @@ i18n
         about: about_es,
         home: home_es,
         projects: projects_es,
+        experience: experience_es,
       },
       en: {
         navbar: navbar_en,
         about: about_en,
         home: home_en,
         projects: projects_en,
+        experience: experience_en,
       },
       pt: {
         navbar: navbar_pt,
         about: about_pt,
         home: home_pt,
         projects: projects_pt,
+        experience: experience_pt,
       },
     },
   });
