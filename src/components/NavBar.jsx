@@ -190,7 +190,7 @@ const NavBar = () => {
                   aria-labelledby="options-menu"
                 >
                   <button
-                    className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
+                    className="block w-full text-left px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
                       i18n.changeLanguage("en");
@@ -200,7 +200,7 @@ const NavBar = () => {
                     {t("english")}
                   </button>
                   <button
-                    className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
+                    className="block w-full text-left px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
                       i18n.changeLanguage("es");
@@ -210,7 +210,7 @@ const NavBar = () => {
                     {t("spanish")}
                   </button>
                   <button
-                    className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
+                    className="block w-full text-left px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
                       i18n.changeLanguage("pt");
