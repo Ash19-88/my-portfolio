@@ -88,8 +88,7 @@ const NavBar = () => {
                 aria-orientation="vertical"
                 aria-labelledby="options-menu"
               >
-                <a
-                  href="#"
+                <button
                   className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100"
                   role="menuitem"
                   onClick={() => {
@@ -98,9 +97,8 @@ const NavBar = () => {
                   }}
                 >
                   {t("english")}
-                </a>
-                <a
-                  href="#"
+                </button>
+                <button
                   className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100"
                   role="menuitem"
                   onClick={() => {
@@ -109,9 +107,8 @@ const NavBar = () => {
                   }}
                 >
                   {t("spanish")}
-                </a>
-                <a
-                  href="#"
+                </button>
+                <button
                   className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100"
                   role="menuitem"
                   onClick={() => {
@@ -120,7 +117,7 @@ const NavBar = () => {
                   }}
                 >
                   {t("portuguese")}
-                </a>
+                </button>
               </div>
             </div>
           )}
@@ -192,8 +189,7 @@ const NavBar = () => {
                   aria-orientation="vertical"
                   aria-labelledby="options-menu"
                 >
-                  <a
-                    href="#"
+                  <button
                     className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
@@ -202,9 +198,8 @@ const NavBar = () => {
                     }}
                   >
                     {t("english")}
-                  </a>
-                  <a
-                    href="#"
+                  </button>
+                  <button
                     className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
@@ -213,9 +208,8 @@ const NavBar = () => {
                     }}
                   >
                     {t("spanish")}
-                  </a>
-                  <a
-                    href="#"
+                  </button>
+                  <button
                     className="block px-4 py-2 text-sm hover:bg-violet-500 hover:text-white"
                     role="menuitem"
                     onClick={() => {
@@ -224,7 +218,7 @@ const NavBar = () => {
                     }}
                   >
                     {t("portuguese")}
-                  </a>
+                  </button>
                 </div>
               </div>
             )}

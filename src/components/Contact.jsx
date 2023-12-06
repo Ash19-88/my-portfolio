@@ -1,17 +1,19 @@
+import { useTranslation } from "react-i18next";
+
 const Contact = () => {
+  const { t } = useTranslation("contact");
+
   return (
     <div
-      name="contact"
+      name={t("contact")}
       className="w-full h-screen bg-gradient-to-b from-slate-800 to-fuchsia-800  p-4 lg:px-20 text-white font-Raleway"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-1 pt-14 lg:pt-16 2xl:pt-2">
           <p className="text-2xl md:text-4xl font-bold inline  border-b-4 border-slate-400">
-            Contact me
+            {t("contactTitle")}
           </p>
-          <p className="py-6">
-            Please fill in the form to get in touch with me
-          </p>
+          <p className="py-6">{t("contactSubtitle")}</p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -23,7 +25,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Enter your name"
+              placeholder={t("namePlaceholder")}
               className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
               required
               minLength="3"
@@ -31,7 +33,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              placeholder="Enter your email"
+              placeholder={t("emailPlaceholder")}
               className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
               required
             />
@@ -40,13 +42,13 @@ const Contact = () => {
               rows="10"
               minLength="20"
               maxLength="250"
-              placeholder="Enter your message"
+              placeholder={t("messagePlaceholder")}
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none
              "
               required
             ></textarea>
             <button className="text-white bg-gradient-to-l from-cyan-400 to-fuchsia-600 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-125 duration-300">
-              {" Let's talk"}
+              {t("contactButton")}
             </button>
           </form>
         </div>
