@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
 
         <div
-          className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-6 px-12
+          className="w-full grid grid-cols-3 gap-5 sm:grid-cols-4 sm:gap-8 text-center py-6 px-12
         sm:px-0 md:gap-10 md:py-10"
         >
           {logos.map(({ id, src, title, style }) => (
