@@ -39,10 +39,6 @@ const NavBar = () => {
       id: 4,
       link: t("experience"),
     },
-    {
-      id: 5,
-      link: t("contact"),
-    },
   ];
 
   return (

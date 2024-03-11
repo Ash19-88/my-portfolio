@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div
       name={t("experience")}
-      className="bg-gradient-to-b from-fuchsia-800 to-slate-800 w-full h-screen font-Raleway"
+      className="bg-gradient-to-b from-fuchsia-800 to-slate-800 w-full h-full font-Raleway"
     >
       <div className="max-w-screen-lg mx-auto p-4 lg:px-20 flex flex-col justify-center w-full text-white">
         <div className="pt-20 lg:pt-16 2xl:pt-32">
