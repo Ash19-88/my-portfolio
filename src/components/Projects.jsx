@@ -1,7 +1,8 @@
 import React from "react";
-import simpleServicePortfolio from "../assets/simpleServicePortfolio.gif";
-import videogamePortfolio from "../assets/videogamePortfolio.gif";
+import videogames from "../assets/videogamePortfolio.gif";
 import starwars from "../assets/starwars.gif";
+import cheers from "../assets/cheers.gif";
+import tunematch from "../assets/tunematch.gif";
 import thinderpet from "../assets/thinderpetPortfolio.gif";
 import nearbytour from "../assets/nearbytour.gif";
 import { useTranslation } from "react-i18next";
@@ -11,30 +12,36 @@ const Projects = () => {
   const project = [
     {
       id: 1,
+      src: cheers,
+      github: "https://github.com/Ash19-88",
+      site: "https://www.cheers.com.es/",
+    },
+    {
+      id: 2,
       src: nearbytour,
       github: "https://github.com/No-Country/s11-21-react-next",
       site: "https://nearbytour.vercel.app/home",
     },
     {
-      id: 2,
+      id: 3,
       src: thinderpet,
       github: "https://github.com/No-Country/c13-36-t-node-react",
       site: "https://thinderpet.vercel.app/",
     },
     {
-      id: 3,
-      src: videogamePortfolio,
+      id: 4,
+      src: tunematch,
+      github: "https://github.com/No-Country/s13-05-t-node-react",
+      site: "https://s13-05-t-node-react-1b9t.onrender.com/",
+    },
+    {
+      id: 5,
+      src: videogames,
       github: "https://github.com/Ash19-88/PI-videogames",
       site: "https://videogames-ashtech.vercel.app/",
     },
     {
-      id: 4,
-      src: simpleServicePortfolio,
-      github: "https://github.com/Edwards0307/simpleservice",
-      site: "https://simple-service-ivory.vercel.app/",
-    },
-    {
-      id: 5,
+      id: 6,
       src: starwars,
       github: "https://github.com/Ash19-88/star-wars",
       site: "https://star-wars-ashtechsolutions.netlify.app/",
