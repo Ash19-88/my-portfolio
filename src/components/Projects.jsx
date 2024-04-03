@@ -14,7 +14,7 @@ const Projects = () => {
       id: 1,
       src: cheers,
       github: "https://github.com/Ash19-88",
-      site: "https://www.cheers.com.es/",
+      site: "https://www.cheerspain.com/",
     },
     {
       id: 2,
