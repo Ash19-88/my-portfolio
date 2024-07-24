@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       name={t("about")}
-      className="w-full h-screen bg-gradient-to-b from-fuchsia-800 to-slate-800 font-Raleway"
+      className="w-full h-full bg-gradient-to-b from-fuchsia-800 to-slate-800 font-Raleway"
     >
       <div className="max-w-screen-lg w-auto p-4 lg:px-20 mx-auto flex flex-col justify-center h-full">
         <div className="pb-1 ">
