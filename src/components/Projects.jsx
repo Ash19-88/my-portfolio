@@ -2,6 +2,7 @@ import React from "react";
 import videogames from "../assets/videogamePortfolio.gif";
 import starwars from "../assets/starwars.gif";
 import cheers from "../assets/cheers.gif";
+import aracellipmu from "../assets/aracellipmu.gif";
 import tunematch from "../assets/tunematch.gif";
 import thinderpet from "../assets/thinderpetPortfolio.gif";
 import nearbytour from "../assets/nearbytour.gif";
@@ -24,24 +25,30 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: aracellipmu,
+      github: "https://github.com/Ash19-88",
+      site: "https://aracelli-pmu.vercel.app/",
+    },
+    {
+      id: 4,
       src: thinderpet,
       github: "https://github.com/No-Country/c13-36-t-node-react",
       site: "https://thinderpet.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       src: tunematch,
       github: "https://github.com/No-Country/s13-05-t-node-react",
       site: "https://s13-05-t-node-react-1b9t.onrender.com/",
     },
     {
-      id: 5,
+      id: 6,
       src: videogames,
       github: "https://github.com/Ash19-88/PI-videogames",
       site: "https://videogames-ashtech.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       src: starwars,
       github: "https://github.com/Ash19-88/star-wars",
       site: "https://star-wars-ashtechsolutions.netlify.app/",
@@ -50,9 +57,9 @@ const Projects = () => {
   return (
     <div
       name={t("projects")}
-      className="bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 w-full text-white md:h-screen font-Raleway"
+      className="bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 w-full text-white md:h-full font-Raleway"
     >
-      <div className="max-w-[75vw] py-4 md:px-20 px-8 mx-auto flex flex-col justify-center w-full min-h-screen">
+      <div className="max-w-screen-lg w-auto py-10 md:px-20 lg:px-24 px-8 mx-auto flex flex-col justify-center min-h-screen">
         <div className="pb-8 pt-20 md:pt-2">
           <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-slate-400">
             {t("projects")}

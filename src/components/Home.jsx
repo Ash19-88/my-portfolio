@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section
       name={t("home")}
-      className="h-screen bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 flex justify-center items-center font-Raleway"
+      className="h-full md:min-h-screen bg-gradient-to-b from-slate-800 via-slate-800 to-fuchsia-800 flex justify-center items-center font-Raleway"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse justify-center items-center md:h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full py-10 md:mx-16">
