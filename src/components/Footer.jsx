@@ -16,7 +16,7 @@ const Footer = () => {
           <a href="https://wa.link/mdejk5">
             <BsWhatsapp size={23} />
           </a>
-          <a href="/Ashresume.pdf">
+          <a href="/Ayelen-Llampa-resume.pdf">
             <BsFillPersonLinesFill size={23} />
           </a>
           <a href="https://github.com/Ash19-88">

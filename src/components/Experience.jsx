@@ -1,5 +1,5 @@
 import React from "react";
-import { logos } from "./logos";
+import { logos } from "../utils/logos";
 import { useTranslation } from "react-i18next";
 
 const Experience = () => {

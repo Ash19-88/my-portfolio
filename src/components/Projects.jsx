@@ -1,59 +1,10 @@
 import React from "react";
-import videogames from "../assets/videogamePortfolio.gif";
-import starwars from "../assets/starwars.gif";
-import cheers from "../assets/cheers.gif";
-import aracellipmu from "../assets/aracellipmu.gif";
-import tunematch from "../assets/tunematch.gif";
-import thinderpet from "../assets/thinderpetPortfolio.gif";
-import nearbytour from "../assets/nearbytour.gif";
 import { useTranslation } from "react-i18next";
+import { project } from "../utils/projects";
 
 const Projects = () => {
   const { t } = useTranslation("projects");
-  const project = [
-    {
-      id: 1,
-      src: cheers,
-      github: "https://github.com/Ash19-88",
-      site: "https://www.cheerspain.com/",
-    },
-    {
-      id: 2,
-      src: nearbytour,
-      github: "https://github.com/No-Country/s11-21-react-next",
-      site: "https://nearbytour.vercel.app/home",
-    },
-    {
-      id: 3,
-      src: aracellipmu,
-      github: "https://github.com/Ash19-88",
-      site: "https://aracelli-pmu.vercel.app/",
-    },
-    {
-      id: 4,
-      src: thinderpet,
-      github: "https://github.com/No-Country/c13-36-t-node-react",
-      site: "https://thinderpet.vercel.app/",
-    },
-    {
-      id: 5,
-      src: tunematch,
-      github: "https://github.com/No-Country/s13-05-t-node-react",
-      site: "https://s13-05-t-node-react-1b9t.onrender.com/",
-    },
-    {
-      id: 6,
-      src: videogames,
-      github: "https://github.com/Ash19-88/PI-videogames",
-      site: "https://videogames-ashtech.vercel.app/",
-    },
-    {
-      id: 7,
-      src: starwars,
-      github: "https://github.com/Ash19-88/star-wars",
-      site: "https://star-wars-ashtechsolutions.netlify.app/",
-    },
-  ];
+
   return (
     <div
       name={t("projects")}
@@ -68,8 +19,8 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-wrap   justify-center sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-8 sm:px-0">
-          {project.map(({ id, src, github, site }) => (
-            <div key={id} className="shadow-md shadow-white rounded-xl">
+          {project.map(({ id, src, github, site, style }) => (
+            <div key={id} className={`shadow-md rounded-xl ${style}`}>
               <img
                 src={src}
                 alt="project Simple Service"
